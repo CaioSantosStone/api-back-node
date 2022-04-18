@@ -1,0 +1,21 @@
+{
+  "name": "test-novo-dev",
+  "version": "1.0.1",
+  "description": "Teste técnico para novos desenvolvedores Stone",
+  "main": "./Config/Start.js",
+  "scripts": {
+    "start": "nodemon Start.js",
+    "test": "mocha --reporter spec"
+  },
+  "author": "Tech Stone Partner Program",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^8.4.0",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.7"
+  }
+}
