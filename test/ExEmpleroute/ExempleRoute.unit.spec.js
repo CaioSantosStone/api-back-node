@@ -1,5 +1,5 @@
 const { assert } = require('chai');
-const ReturnLoremIpsum = require('../../Config/ExampleRoute/actions/ReturnLoremIpsum')
+const ReturnLoremIpsum = require('../../Config/ExampleRoute/Actions/ReturnLoremIpsum')
 const returnLoremIpsum = new ReturnLoremIpsum()
 
 describe("ExempleRoute - Teste Unitario da funcionalidade.", () => {

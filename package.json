@@ -5,7 +5,7 @@
   "main": "./Config/Start.js",
   "scripts": {
     "start": "nodemon Start.js",
-    "test": "mocha --reporter spec"
+    "test": "mocha --recursive --reporter spec"
   },
   "author": "Tech Stone Partner Program",
   "license": "ISC",
