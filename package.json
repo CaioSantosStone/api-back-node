@@ -1,7 +1,7 @@
 {
   "name": "test-novo-dev",
   "version": "1.0.1",
-  "description": "Teste técnico para novos desenvolvedores Stone",
+  "description": "Test",
   "main": "./Config/Start.js",
   "scripts": {
     "start": "nodemon Start.js",

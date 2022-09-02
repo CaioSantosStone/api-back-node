@@ -6,9 +6,12 @@ var router = express.Router()
 const ReturnLoremIpsum = require('./Actions/ReturnLoremIpsum')
 const returnLoremIpsum = new ReturnLoremIpsum()
 
+//Database
+let dataLoremIpsum = require('../../App/Database/ReturnLoremIpsum')
+
 //Rotas
 router.get('/lorem-ipsum', (req, res) => {
-    let loremIpsum = returnLoremIpsum.returnLoremIpsum()
+    let loremIpsum = returnLoremIpsum.returnLoremIpsum(dataLoremIpsum)
     res.json({ loremIpsum })
 })
 
