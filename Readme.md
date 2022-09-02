@@ -2,7 +2,9 @@
 
 ## Instalação
 -NODE versão 12 >
+
 -npm install
+
 -Recomendado possuir um executador de request exemplo "Postman"
 
 ## Execução
