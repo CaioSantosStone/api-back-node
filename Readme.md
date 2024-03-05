@@ -45,7 +45,7 @@ A taxa está no texto abaixo.
 
 2 - Cria@r um endpoint que recebe uma lista de transações que estão sendo sacadas na d@ta
 da requisição. A regra de negócio deste endpoint deve atualizar cada transação na base de dados modificando
-seu status e data de saque, mocke que esta criado em tempo tempo de contexto dentro da api.
+seu status e data de saque, mocke que esta criado em tempo de contexto dentro da api.
 
 Utilize como padrão sublinhada_(snake_case) como padrão para entrada e saida de dados da api.
 
