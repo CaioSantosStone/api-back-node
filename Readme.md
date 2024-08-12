@@ -41,8 +41,8 @@ O response deste endpoint deve possuir a lista de transações exibindo os valor
 e a somatória dos valores das transações com a taxa de saque aplicada a cada uma.
 
 Obs:
--A taxa está no texto abaixo. E como taxa ela é um desconto do valor da transação.
--Use amount_available_on_date para filtrar a data de inicio e fim.
+-A taxa está no texto abaixo. E como taxa ela é um desconto do valor da transação;
+-Use amount_available_on_date para filtrar a data de inicio e fim;
 
 2 - Criar um endpoint que recebe uma lista de transações que estão sendo sacadas na data
 da requisição. A regra de negócio deste endpoint deve atualizar cada transação na base de dados modificando
