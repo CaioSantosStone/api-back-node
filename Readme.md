@@ -35,18 +35,14 @@ de sua regra de negócio.
 
 ## Objetivos
 
-1 - Criar um endpoint que recebe um objeto com data de inicio e fim, para poder consultar
-todas as transacoes que ainda não foram sacadas e estão disponíveis.
-O response deste endpoint deve possuir a lista de transações exibindo os valores, a somatória dos valores de todas as transações
-e a somatória dos valores das transações com a taxa de saque aplicada a cada uma.
+1 - Criar um endpoint que recebe um objeto com data de início e fim, para poder consultar todas as transações que ainda não foram sacadas e estão disponíveis.
+O response deste endpoint deve possuir a lista de transações exibindo os valores, a somatória dos valores de todas as transações e a somatória dos valores das transações com a taxa de saque aplicada a cada uma.
 
 Obs:
--A taxa está no texto abaixo. E como taxa ela é um desconto do valor da transação;
--Use amount_available_on_date para filtrar a data de inicio e fim;
+- A taxa está no texto abaixo. E, como taxa, ela é um desconto do valor da transação;
+- Use amount_available_on_date para filtrar a data de início e fim;
 
-2 - Criar um endpoint que recebe uma lista de transações que estão sendo sacadas na data
-da requisição. A regra de negócio deste endpoint deve atualizar cada transação na base de dados modificando
-seu status e data de saque, mocke que esta criado em tempo de contexto dentro da api.
+2 - Criar um endpoint que recebe uma lista de transações que estão sendo sacadas na data da requisição. A regra de negócio deste endpoint deve atualizar cada transação na base de dados, modificando seu status e data de saque. Mocke que está criado em tempo de contexto dentro da API.
 
 Utilize como padrão sublinhada_(snake_case) como padrão para entrada e saida de dados da api.
 
